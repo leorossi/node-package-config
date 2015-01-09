@@ -44,9 +44,6 @@ var config = require('package-config').load()`
 server.listen(config.port);
 ```
 
-
-
-
 If you want to load an alternate package.json-like config file you can type
 
-`var config = require('package-config').load(/path/to/your/package/file)`
+`var config = require('package-config').load("/path/to/your/package/file")`
