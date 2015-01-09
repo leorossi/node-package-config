@@ -1,0 +1,12 @@
+{
+  "author": "Leonardo Rossi <leonardo.rossi@gmail.com",
+  "version": "0.0.1",
+  "config" : {
+    "development": {
+      "name": "dev"
+    },
+    "production": {
+      "name": "prod"
+    }
+  }
+}

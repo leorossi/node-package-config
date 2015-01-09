@@ -1,0 +1,27 @@
+{
+  "name": "package-config",
+  "version": "0.1.0",
+  "description": "Node.js config loader based on package.json file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -R spec --colors --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leorossi/node-package-config.git"
+  },
+  "keywords": [
+    "package.json",
+    "config",
+    "environments"
+  ],
+  "author": "Leonardo Rossi <leonardo.rossi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leorossi/node-package-config/issues"
+  },
+  "homepage": "https://github.com/leorossi/node-package-config",
+  "devDependencies": {
+    "should": "^4.4.2"
+  }
+}
