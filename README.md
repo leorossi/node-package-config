@@ -40,10 +40,10 @@ The `package.json`file must be formatted like this
 Then you can load the config with a one-liner
 
 ```
-var config = require('package-config').load()`
+var config = require('package-config').load();
 server.listen(config.port);
 ```
 
 If you want to load an alternate package.json-like config file you can type
 
-`var config = require('package-config').load("/path/to/your/package/file")`
+`var config = require('package-config').load("/path/to/your/package/file");`
