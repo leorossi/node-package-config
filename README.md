@@ -3,7 +3,8 @@ Node.js config loader based on package.json file.
 
 Package.json file is useful to store env-related variables (such as server ports or other configurations).
 This module will read the `NODE_ENV` env variable in order to get the current running environment.
-*** Note that the `development` environment must be present because is the default environment expected. ***
+
+*Note that the `development` environment must be present because is the default environment expected.*
 
 The `package.json`file must be formatted like this
 ```
